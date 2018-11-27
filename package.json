@@ -1,5 +1,5 @@
 {
-  "name": "elasticsearch-daily-json",
+  "name": "elasticsearch-query-to-json",
   "version": "1.0.2",
   "main": "./lib/index.js",
   "bin": "./bin/index.js",
