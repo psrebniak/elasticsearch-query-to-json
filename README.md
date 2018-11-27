@@ -4,7 +4,7 @@ cli tool to fetch all documents from elasticsearch by query.
 
 ## usage
 ```$sh
-$ elasticsearch-query-to-json -h "$ELASTIC_HOST" -i "$ELASTIC_INDEX" -b "$QUERY"
+$ elasticsearch-query-to-json -h "$ELASTIC_HOST" -i "$ELASTIC_INDEX" -b "$QUERY" -o output.json
 ```
 
 ### available options
@@ -12,6 +12,7 @@ $ elasticsearch-query-to-json -h "$ELASTIC_HOST" -i "$ELASTIC_INDEX" -b "$QUERY"
 * `--host`(`-h`) host eg. http://elasticsearch.co:9200
 * `--index`(`-i`) index
 * `--body`(`-b`) query body - some examples below
+* `--output`(`-o`) output file - leave empty to write results to stdout
 * `--scroll` specify how long a consistent view of the index should be maintained for scrolled search - default `1m`
 * `--size` - number of hits to return at once - default `1000`
 
