@@ -21,7 +21,8 @@ export class SearchQuery {
       index: this.options.index,
       scroll: this.options.scroll,
       size: this.options.size,
-      body: this.options.body
+      body: this.options.body,
+      // filterPath: ['_scroll_id', 'hits.']
     })
 
     this.progress = search.hits.hits.length
