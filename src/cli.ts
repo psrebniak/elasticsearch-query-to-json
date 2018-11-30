@@ -45,9 +45,7 @@ const args = yargs
   })
   .version(pkg.version)
   .showHelpOnFail(true)
-  .argv
-
-console.log(args);
+  .argv;
 
 (async () => {
   const client = new elasticsearch.Client({
