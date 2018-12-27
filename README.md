@@ -1,3 +1,5 @@
+please use elasticdump instead of this package. It's much more powerful and maintained. 
+
 # elasticsearch-query-to-json
 
 cli tool to fetch all documents from elasticsearch by query. 
